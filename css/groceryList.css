@@ -1,0 +1,38 @@
+body {
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  background-color: #e6e5e5;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid magenta;
+}
+
+ol {
+  margin: 5px 0 5px 0;
+  border-radius: 2px;
+  list-style-type: decimal;
+}
+
+li {
+  border-radius: 2px;
+  margin-bottom: 8px;
+}
+
+ul > li > ul > li {
+  border-bottom: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+}
