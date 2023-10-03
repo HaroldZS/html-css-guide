@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/specificity.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Importance, specificity and Order of sources</h1>
+
+      <h2>Importance:</h2>
+      <ul>
+        <li>1. User agent style sheet (Browser styles)</li>
+        <li>2. Author style sheet (Css style sheet)</li>
+        <li>3. Important statements of author style sheet (!important)</li>
+      </ul>
+
+      <h2>Specificity:</h2>
+      <table>
+        <tr>
+          <th>Selectors</th>
+          <th>Specificity</th>
+        </tr>
+        <tr>
+          <td>!important</td>
+          <td>(1,0,0,0,0)</td>
+        </tr>
+        <tr>
+          <td>Inline style</td>
+          <td>(0,1,0,0,0)</td>
+        </tr>
+        <tr>
+          <td>#id</td>
+          <td>(0,0,1,0,0)</td>
+        </tr>
+        <tr>
+          <td>.class</td>
+          <td>(0,0,0,1,0)</td>
+        </tr>
+        <tr>
+          <td>tag</td>
+          <td>(0,0,0,0,1)</td>
+        </tr>
+      </table>
+
+      <h2>Order of sources:</h2>
+      <p>
+        Declarations at the end of the document will override those that come
+        before in case of conflict
+      </p>
+    </main>
+  </body>
+</html>
