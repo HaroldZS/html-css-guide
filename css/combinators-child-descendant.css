@@ -1,0 +1,9 @@
+/* Direct children */
+div > p {
+  color: red;
+}
+
+/* Descendant */
+div p {
+    background-color: yellow;
+}
