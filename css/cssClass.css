@@ -1,0 +1,13 @@
+h2 {
+  color: teal;
+  font-size: 60px;
+}
+
+.class {
+  color: crimson;
+}
+
+#id {
+  color: darkgoldenrod;
+  font-size: 14px;
+}
