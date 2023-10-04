@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p#html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 20px;
+}
+
+main {
+  background-color: red;
+  width: 600px;
+  height: 200px;
+}
+
+p#px {
+  font-size: 16px;
+}
+
+.text-container {
+  font-size: 1.5em;
+}
+
+.text-container div {
+  font-size: 1.5em;
+}
+
+div#rem {
+  font-size: 1.6rem;
+}
+
+#div-rem {
+  font-size: 1.6rem;
+}
+
+.div-section {
+  width: 100vw;
+  height: 20vh;
+  background-color: purple;
+}
+
+section {
+  width: 80%;
+  min-width: 320px;
+  max-width: 500px;
+  min-height: 90px;
+  margin: 0px auto;
+  background: yellow;
+}
