@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: red;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    height: 80vh;
+    background-color: yellow;
+    float: left;
+}
+
+main {
+    width: 70%;
+    height: 80vh;
+    background-color: magenta;
+    float: left;
+}
+
+footer {
+    clear: both;
+    height: 10vh;
+    background-color: green;
+}
