@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="../css/responsiveImages.css" />
+  </head>
+  <body>
+    <main>
+      <picture>
+        <source media="(min-width: 1300px)" srcset="../assets/img/Big.jpg" />
+        <source media="(min-width: 1000px)" srcset="../assets/img/Medium.jpg" />
+        <img src="../assets/img/Little.jpg" alt="Example image" />
+      </picture>
+    </main>
+  </body>
+</html>
